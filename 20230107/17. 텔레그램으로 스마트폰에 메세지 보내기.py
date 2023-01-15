@@ -4,13 +4,13 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext, ContextTypes, ApplicationBuilder
 from telegram.ext import MessageHandler, filters
 
-token = '5837049587:AAGjWmtlqiL_0P4RkFNQ2kjbLemifYK0ZlY'
-#https://api.telegram.org/bot5837049587:AAGjWmtlqiL_0P4RkFNQ2kjbLemifYK0ZlY/getUpdates
-chat_id = 2104119799
+token = '깃헙토큰'
+#https://api.telegram.org/[token]/getUpdates
+chat_id = [chat_id]
 
 #
 # async def main(): #실행시킬 함수명 임의지정
-#     token = '5837049587:AAGjWmtlqiL_0P4RkFNQ2kjbLemifYK0ZlY'
+#     token = '깃헙토큰'
 #     bot = telegram.Bot(token=token)
 #     await bot.send_message(chat_id, '자동응답 테스트 입니다. 안녕 또는 뭐해를 입력하여 보세요')
 #
